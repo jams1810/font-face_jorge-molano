@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "jersey25";
+    src: url("../fonts/jersey25-regular-webfont.woff") format("woff");
+    src: url("../fonts/jersey25-regular-webfont.woff2") format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Kanit_regular";
+    src: url("../fonts/kanit-regular-webfont.woff") format("woff");
+    src: url("../fonts/kanit-regular-webfont.woff2") format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "kanit_italic";
+    src: url("../fonts/kanit-italic-webfont.woff") format("woff");
+    src: url("../fonts/kanit-italic-webfont.woff2") format("woff2");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "kanit_bold";
+    src: url("../fonts/kanit-bold-webfont.woff") format("woff");
+    src: url("../fonts/kanit-bold-webfont.woff2") format("woff2");
+    font-style: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Header */
+
+header {
+    background-color: rgb(164, 159, 159);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "jersey25";
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/* main */
+
+h2 {
+    font-family: "kanit_bold";
+    text-align: center;
+    margin: 50px 0;
+    font-size: 30px;
+}
+
+p.main {
+    font-size: 20px;
+    font-family: "kanit_regular";
+    margin: 20px;
+}
+
+.figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+img {
+    width: 600px;
+}
+
+/* footer */
+
+footer {
+    background-color: rgb(164, 159, 159);
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer1 {
+    font-size: 15px;
+    font-family: "kanit_bold";
+    margin-right: 200px;
+}
+
+.footer2 {
+    font-size: 18px;
+    font-family: "kanit_italic";
+}
+
